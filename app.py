@@ -40,7 +40,7 @@ def predict():
     print(prediction)
 
     #output = round(prediction[0], 2)
-    return render_template('home.html', prediction_text="The passanger {}".format(prediction))
+    return render_template('home.html', prediction_text="The Passenger {}".format(prediction))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
